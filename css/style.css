@@ -211,6 +211,7 @@ img {
     align-items: center;
     padding: 20px;
     flex-direction: column;
+    text-align: center;
 }
 
 .cases {
@@ -234,9 +235,13 @@ img {
     width: 100%;
 }
 
-.team {
-    padding: 20px 20px 60px 60px;
-    margin: 10px;
+.heading{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .team .flex-item {
@@ -313,6 +318,28 @@ footer p {
     margin-top: 20px;
 }
 
+.flex-container .column .column-2.bg-light {
+    background-color: #fff;
+    color: #333;
+}
+
+.flex-container .column .column-2.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.header.blog {
+    background: url('../img/blog.jpg') no-repeat center center/cover;
+    height: 500px;
+}
+
+.btn-white {
+    background: transparent;
+    color: #333;
+    border: 1px solid #333;
+
+}
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -339,7 +366,6 @@ footer p {
     }
 
     .gallery .column {
-        display: flex;
         flex-direction: column;;
         max-width: 100%;
     }
